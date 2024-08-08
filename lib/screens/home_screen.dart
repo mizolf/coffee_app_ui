@@ -97,6 +97,9 @@ class _HomeScreenState extends State<HomeScreen> {
               },
             ),
           ),
+          const SizedBox(
+            height: 20,
+          ),
           Expanded(
             child: ListView(
               scrollDirection: Axis.horizontal,
